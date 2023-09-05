@@ -1,5 +1,5 @@
 
-# NewsAPI.py
+# NewsAPI Python Project
 
 This script allows you to fetch the latest news for a given stock company name using the NewsAPI.
 
@@ -32,7 +32,7 @@ Replace `YOUR_API_KEY_HERE` with your actual API key.
 Run the script and provide a stock company name as input:
 
 ```bash
-python NewsAPI.py
+python NewsAPI-Python_Wrapper.py
 ```
 
 Follow the on-screen instructions to input the stock company name and get the latest news.
