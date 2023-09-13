@@ -1,3 +1,4 @@
+#!/opt/anaconda3/envs/motley_smart/bin/python
 from newsapi import NewsApiClient
 from config import API_KEY
 import datetime
@@ -30,8 +31,10 @@ articles = top_headlines['articles']
 
 # Display the news articles
 for article in articles:
-    print("Title:", article['title'])
-    print("Description:", article['description'])
-    print("URL:", article['url'])
-    print("Published At:", article['publishedAt'])
+    print("\n")
+    print("TITLE :", article['title'])
+    print("DESCRIPTION :", article['description'])
+    print("URL :", article['url'])
+    print("PUBLISHED AT :", article['publishedAt'])
+    print("\n")
     print("-" * 50)  # Separator
